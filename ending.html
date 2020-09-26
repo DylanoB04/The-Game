@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="EN">
+	<head>	
+		<meta charset="UTF-8">			
+		<link rel="stylesheet" type="text/css" href="css/style.css">		
+		<title>thanks for playing!</title>
+		<script>
+			var audiofile3 = new Audio('audio/ending.mp3');
+				audiofile3.volume = 0.2;
+				audiofile3.play();
+					if (typeof audiofile3.loop == 'boolean')
+					{			
+						audiofile3.loop = true;
+					}
+		</script>
+	</head>
+		<body class="ending">	
+			<div class="end">
+ 				<a href="game.html">exit</a><br>
+ 			</div>
+ 			<div class="background">
+			<img src="images/new_background_main_menu.jpg" alt="background_mainmenu">
+			</div>
+ 				<h1>Thank you for playing!</h1>
+ 		</body>
+</html>
